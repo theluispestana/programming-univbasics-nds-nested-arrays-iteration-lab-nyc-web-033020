@@ -29,6 +29,7 @@ def find_greater_pair(src)
     else
       larger_num.push(inner_arr[1])
     end
+    rows += 1
   end
   larger_num
 end
