@@ -50,7 +50,7 @@ def total_even_pairs(src)
     while element < inner_arr.length do
       number = inner_arr[element]
       if number % 2 == 0
-        even_total += 1
+        even_total += number
       end
       element += 1
     end
