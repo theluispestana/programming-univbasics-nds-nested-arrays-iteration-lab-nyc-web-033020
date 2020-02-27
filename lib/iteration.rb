@@ -56,5 +56,5 @@ def total_even_pairs(src)
     end
     rows += 1
   end
-  even_total
+  even_sum
 end
