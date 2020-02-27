@@ -52,7 +52,9 @@ def total_even_pairs(src)
       if number % 2 == 0
         even_total += 1
       end
+      element += 1
     end
+    rows += 1
   end
   even_total
 end
