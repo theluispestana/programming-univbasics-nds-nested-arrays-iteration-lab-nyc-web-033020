@@ -48,8 +48,8 @@ def total_even_pairs(src)
     inner_arr = src[rows]
     if (inner_arr[0] % 2 == 0) && (inner_arr[1] % 2 == 0)
       even_sum += inner_arr[0] + inner_arr[1]
-    rows += 1
-  end
+      rows += 1
+    end
   end
   even_sum
 end
