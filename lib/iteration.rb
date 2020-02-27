@@ -11,6 +11,7 @@ def join_ingredients(src)
   while rows < src.length do
     pair = src[rows]
     string_arr.push("I love #{pair[0]} and #{pair[1]} on my pizza")
+    rows += 1
   end
   string_arr
 end
