@@ -50,5 +50,6 @@ def total_even_pairs(src)
       even_sum += inner_arr[0] + inner_arr[1]
     rows += 1
   end
+  end
   even_sum
 end
