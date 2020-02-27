@@ -53,4 +53,5 @@ def total_even_pairs(src)
       end
     end
   end
+  even_total
 end
